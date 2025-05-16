@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bmi.css">
+    <script src="https://kit.fontawesome.com/69611218f6.js" crossorigin="anonymous"></script>
+    <title>BMI Calculator</title>
+</head>
+<body id="body">
+    <div class="top-nav" id="topnav">
+        <a href="index.html" class="home"><span>Fit</span><span id="pro">Pro</span></a>
+        <a href="diet.html">Diet</a>
+        <a href="workout.html">Work out</a>
+        <a href="#">BMI</abbr></a>
+        <a href="#">Coach</a> 
+        <a href="#">Chat Ai</a> 
+        <a href="#">Why do we care about health and fittnes </a>
+        <a href="#"><i class="fa-solid fa-right-to-bracket"></i>  Login or signup</a>
+        <a href="javascript:void(0)" class="icon" onclick="show()"><i class="fa-solid fa-bars"></i></a>
+      </div>
+      <div class="container">
+        <h1>BMI Calculator</h1>
+        <form id="bmi-form">
+            <label for="weight">Weight (kg):</label>
+            <input type="text" id="weight" required>
+
+            <label for="height">Height (m):</label>
+            <input type="text" id="height" required>
+
+            <button type="submit">Calculate BMI</button>
+        </form>
+        <div id="result" class="result"></div>
+        <div class="weight-guide">
+            <h1>BMI weight guide</h1>
+            <ul>
+                <li>Underweight: BMI less than 18.5</li>
+                <li>Normal weight: BMI 18.5 - 24.9</li>
+                <li>Overweight: BMI 25 - 29.9</li>
+                <li>Obesity: BMI ≥ 30</li>
+            </ul>
+               
+        </div>
+        </div>
+
+<script src="script.js"></script>
+<script src="bmi.js"></script>
+</body>
+</html>
