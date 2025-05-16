@@ -66,7 +66,7 @@ body{
 }
 .home-bg{
   display: flex;
-  background-image:url("imgs1/home.jpg");
+  background-image:url("home.jpg");
   background-size: cover;
   padding: 15px;
   height: 70vh;
